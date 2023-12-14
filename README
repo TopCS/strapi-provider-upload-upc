@@ -1,0 +1,18 @@
+An alternative upload provider working with latest uploadcare lib and latest  Strapi.
+
+Set config with 
+
+module.exports = ({ env }) => ({
+    // ...
+    upload: {
+        config: {
+      provider: 'upc',
+      providerOptions: {
+        public_key:"xxxxx",
+        secret_key:"xxxxx",
+        base_cdn_url: "https://ucarecdn.com",
+      },
+    },
+    }
+    // ...
+  });
