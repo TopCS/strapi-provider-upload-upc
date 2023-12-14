@@ -1,5 +1,5 @@
 {
-  "name": "@strapi/provider-upload-upc",
+  "name": "strapi-provider-upload-upc",
   "version": "1.0.0",
   "author": "Andrea Batazzi <andrea.batazzi@gmail.com>",
   "private": false,
