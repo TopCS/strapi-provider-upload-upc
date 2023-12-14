@@ -2,6 +2,7 @@
   "name": "@strapi/provider-upload-upc",
   "version": "1.0.0",
   "author": "Andrea Batazzi <andrea.batazzi@gmail.com>",
+  "private": false,
   "keywords": [
     "upload",
     "upc",
@@ -16,7 +17,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/TopCS/strapi-provider-upload-upc.git"
+    "url": "git+https://github.com/andreabat/strapi-provider-upload-upc.git"
   },
   "dependencies": {
     "@uploadcare/rest-client": "^6.11.0",
